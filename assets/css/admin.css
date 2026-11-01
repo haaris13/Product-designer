@@ -1,0 +1,97 @@
+.lecouzpd-admin__editor {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 16px;
+	padding: 0 12px 8px;
+	align-items: flex-start;
+}
+
+.lecouzpd-admin__stage {
+	position: relative;
+	flex: 0 1 460px;
+	max-width: 100%;
+	line-height: 0;
+	user-select: none;
+	touch-action: none;
+}
+
+.lecouzpd-admin__stage img {
+	display: block;
+	width: 100%;
+	height: auto;
+	border: 1px solid #c3c4c7;
+}
+
+.lecouzpd-admin__box {
+	position: absolute;
+	box-sizing: border-box;
+	border: 2px dashed #2271b1;
+	background: rgba(34, 113, 177, 0.18);
+	cursor: move;
+}
+
+.lecouzpd-admin__tag {
+	position: absolute;
+	top: 0;
+	left: 0;
+	min-width: 20px;
+	padding: 2px 6px;
+	background: #2271b1;
+	color: #fff;
+	font: 600 12px/16px sans-serif;
+	text-align: center;
+}
+
+.lecouzpd-admin__handle {
+	position: absolute;
+	right: -6px;
+	bottom: -6px;
+	width: 14px;
+	height: 14px;
+	background: #2271b1;
+	border: 2px solid #fff;
+	border-radius: 50%;
+	cursor: nwse-resize;
+}
+
+.lecouzpd-admin__areas {
+	flex: 1 1 280px;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.woocommerce_options_panel .lecouzpd-admin__areas li {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	gap: 8px;
+	margin: 0 0 8px;
+	padding: 8px;
+	background: #f6f7f7;
+	border: 1px solid #dcdcde;
+}
+
+.woocommerce_options_panel .lecouzpd-admin__areas input[type="text"] {
+	float: none;
+	flex: 1 1 140px;
+	width: auto;
+	margin: 0;
+}
+
+.woocommerce_options_panel .lecouzpd-admin__mm {
+	float: none;
+	display: inline-flex;
+	align-items: center;
+	gap: 4px;
+	width: auto;
+	margin: 0;
+	padding: 0;
+	font-size: 12px;
+}
+
+.woocommerce_options_panel .lecouzpd-admin__mm input {
+	float: none;
+	width: 72px;
+	margin: 0;
+}
