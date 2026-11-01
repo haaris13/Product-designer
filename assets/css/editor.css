@@ -215,6 +215,16 @@ html.lecouzpd-lock {
 	font-size: 0.9em;
 }
 
+.lecouzpd-hint {
+	margin: 0 0 12px;
+	color: #64748b;
+	font-size: 0.9em;
+}
+
+.lecouzpd-hint[hidden] {
+	display: none;
+}
+
 .lecouzpd-delete {
 	color: #b91c1c;
 }

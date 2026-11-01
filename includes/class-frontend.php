@@ -186,6 +186,7 @@ final class Frontend {
 			'addText'      => __( 'Add text', 'lecouz-product-designer' ),
 			'addImage'     => __( 'Add image', 'lecouz-product-designer' ),
 			'defaultText'  => __( 'Your text', 'lecouz-product-designer' ),
+			'hint'         => __( 'Add text or an image, then move and resize it inside the dashed area.', 'lecouz-product-designer' ),
 			'area'         => __( 'Print area', 'lecouz-product-designer' ),
 			'text'         => __( 'Text', 'lecouz-product-designer' ),
 			'font'         => __( 'Font', 'lecouz-product-designer' ),

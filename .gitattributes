@@ -1,2 +1,12 @@
 * text=auto eol=lf
 *.min.js -text
+*.png binary
+*.gif binary
+*.mp4 binary
+
+# Not part of the installable plugin zip
+.gitattributes export-ignore
+.gitignore export-ignore
+.github export-ignore
+docs export-ignore
+README.md export-ignore

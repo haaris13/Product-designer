@@ -216,7 +216,7 @@ final class Cart {
 		<div class="lecouzpd-order-files" style="margin-top:8px">
 			<?php if ( $files['preview'] ) : ?>
 				<a href="<?php echo esc_url( $files['preview'] ); ?>" target="_blank" rel="noopener">
-					<img src="<?php echo esc_url( $files['preview'] ); ?>" alt="" style="display:block;max-width:96px;height:auto;border:1px solid #c3c4c7;margin-bottom:6px">
+					<img src="<?php echo esc_url( $files['preview'] ); ?>" alt="" style="display:block;max-width:140px;height:auto;border:1px solid #c3c4c7;margin-bottom:6px">
 				</a>
 			<?php endif; ?>
 			<?php foreach ( $files['areas'] as $area_id => $url ) : ?>

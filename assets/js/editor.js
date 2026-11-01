@@ -187,6 +187,9 @@
 		tools.appendChild( picker );
 		side.appendChild( tools );
 
+		ui.hint = make( 'p', 'lecouzpd-hint', i18n.hint );
+		side.appendChild( ui.hint );
+
 		ui.warning = make( 'p', 'lecouzpd-warning' );
 		ui.warning.hidden = true;
 		side.appendChild( ui.warning );
@@ -538,6 +541,7 @@
 		var object = canvas.getActiveObject();
 
 		ui.props.hidden = ! object;
+		ui.hint.hidden = !! object;
 
 		if ( ! object ) {
 			return;
